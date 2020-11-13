@@ -1,6 +1,8 @@
 # This test file is designed to test the Logisim MIPS
 # implementation for Spencer Little and James Northup's
-# submission for project 1.
+# submission for project 1. This test file contains
+# tests for all operations for the sake of convenience.
+# indiviudal test files are also available.
 # TCSS 372 - 11/11/2020
 
 .text
@@ -9,7 +11,7 @@
 # result state: t0 = 1, t1 = 2, t2 = 3
 lw 	$t0, 0($at)		# t0 = 1
 lw	$t1, 4($at)		# t1 = 2
-add	$t2, $t0, $t1		# t3 = 3
+add	$t2, $t0, $t1		# t2 = 2
 
 # sw test
 # result state 64($a0) = 10
